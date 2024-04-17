@@ -1,0 +1,86 @@
+body{
+    background-color: #99b3da;
+}
+
+.custom-form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#013376;
+    border: 1px solid#004aad;
+    border-radius: 30px 0px;
+    color: white;
+    margin-top: 200px;
+}
+.input-field {
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #44a8d4;
+    border-radius: 10px;
+}
+
+/* Estilos para o botão */
+.custom-button {
+    background-color:#7da5e3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cabeçalho{
+ 
+    
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content:center ;
+    text-align: center;
+}
+
+.Link{
+    margin-right: 50px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #0f59a0;
+    border-radius: 50px;
+    padding: 7px 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
+    transition: box-shadow 0.3s ease; 
+   
+}
+.Link:hover{
+    
+    background-color: #678eb3;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease; 
+}   
+
+.custom-button:hover{
+    background-color: #678eb3;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease; 
+}
+
+.ttl{
+    float: left;
+    text-align: center;
+    position: absolute;
+    margin-left: 52%;
+    margin-top: 13%;
+   font-size: 80px;
+   color: #093966;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+   transition: box-shadow 0.3s ease; 
+}
+
+.textt{
+    float: left;
+    margin-left: 54%;
+    margin-top: 18%;
+    width: 40%;
+    font-size: 22px;
+}
